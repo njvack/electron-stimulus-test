@@ -1,0 +1,4 @@
+owner: electron-userland
+repo: electron-webpack-quick-start
+provider: github
+updaterCacheDirName: electron-webpack-quick-start-updater

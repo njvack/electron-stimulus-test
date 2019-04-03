@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= process.env.npm_package_productName %></title>
+    <meta charset="utf-8">
+    <script>
+      <% if (htmlWebpackPlugin.options.nodeModules) { %>
+        require('module').globalPaths.push(
+          '<%= htmlWebpackPlugin.options.nodeModules %>'.replace(/\\/g, '\\\\'),
+        )
+      <% } %>
+      require('source-map-support/source-map-support.js').install()
+    </script>
+  </head>
+  <body>
+    <div id="app">
+        <h1>Hi there friend</h1>
+        <p>This is some text in an app.</p>
+        <div data-controller="hello">
+            <input type="text" data-target="hello.name">
+            <button data-action="hello#greet">Greet</button>
+            <span data-target="hello.output"></span>    
+        </div>
+    </div>
+  </body>
+</html>

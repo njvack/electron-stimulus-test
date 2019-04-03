@@ -1,0 +1,12 @@
+version: 0.0.0
+files:
+  - url: electron-webpack-quick-start-0.0.0-mac.zip
+    sha512: CASOs0wyQi7r66R7y1xLuXZhlOoD+VQY8Qr0dypMXUHE55ydmc3/Uv7NpuJmQb5LrIX8EgU5UMnMwhYK183R1Q==
+    size: 52643904
+    blockMapSize: 56157
+  - url: electron-webpack-quick-start-0.0.0.dmg
+    sha512: 1L407Kn0U9wj2R4BifwmIaH7AbkgqvdJGKjsWoxo8Z50jRLQLdV0F1kWLpkWZEF/2c0hznneP0UFC+Fj5ZVx5g==
+    size: 54280316
+path: electron-webpack-quick-start-0.0.0-mac.zip
+sha512: CASOs0wyQi7r66R7y1xLuXZhlOoD+VQY8Qr0dypMXUHE55ydmc3/Uv7NpuJmQb5LrIX8EgU5UMnMwhYK183R1Q==
+releaseDate: '2019-04-03T15:12:33.148Z'
