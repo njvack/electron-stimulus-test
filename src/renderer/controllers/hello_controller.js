@@ -17,7 +17,7 @@ export default class extends Controller {
                 let li = document.createElement('li');
                 li.textContent = file;
                 ul.appendChild(li);
-            });    
+            });
         });
     }
 }
